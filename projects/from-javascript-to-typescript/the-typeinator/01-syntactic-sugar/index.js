@@ -4,7 +4,7 @@
 function announceMachines(announce, ...machines) {
 	let labelsCount = 0;
 
-	for (machine of machines) {
+	for (const machine of machines) {
 		let label;
 
 		if (machine.label) {
